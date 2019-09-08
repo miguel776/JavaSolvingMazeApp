@@ -130,7 +130,7 @@ public class MazeJuniferImpl implements MazeJunifer{
 	            
 	  }else if(waySouth.equals("X")){
 	     maze[i][j]="W";
-	            	i++;
+	     i++;
 	            
 	  }else if(wayWest.equals("X")){
 	     maze[i][j]="W";
@@ -138,7 +138,7 @@ public class MazeJuniferImpl implements MazeJunifer{
 	            
 	  }else if(wayNorth.equals("X")){
 	     maze[i][j]="W";
-	            	i--;		  
+	     i--;		  
 	  }else{
 	    System.out.print("\n\n THERE IS NOT A SOLUTION");
 	    maze[Rstart][Cstart]="S";
