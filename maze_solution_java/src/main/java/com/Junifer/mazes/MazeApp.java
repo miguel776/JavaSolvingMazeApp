@@ -9,8 +9,7 @@ package com.Junifer.mazes;
 *    + Load the data of a file.txt that content the maze and the (x,y) location of the start and end.
 *    + Solve the maze and return the solution.
 *    + Formatted the result to show in the console.
-*    + Show the maze in console.
-* 
+*    + Show the maze in console. 
 */
 public class MazeApp {
 	
