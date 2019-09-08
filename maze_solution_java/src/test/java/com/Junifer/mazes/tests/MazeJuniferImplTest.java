@@ -45,7 +45,6 @@ public class MazeJuniferImplTest {
      * - The correct functionality is checked according value of (x,y) location of the end
      * - It must be equal maze[4][3]="N", it will  indicated that there isn´t a solution 
      */
-
     @Test
     public void testAppSolvingMaze_imput3() throws Exception {
     	
@@ -59,8 +58,7 @@ public class MazeJuniferImplTest {
     //......................................................................
     /**
      * - The correct functionality is checked according value of (x,y) location of the end
-     * - It must be equal maze[19][19]="E", it will  indicated that there is a solution.
-     *       
+     * - It must be equal maze[19][19]="E", it will  indicated that there is a solution.     
      */
     @Test
     public void testAppSolvingMaze_sparse_medium() throws Exception {
@@ -76,7 +74,6 @@ public class MazeJuniferImplTest {
     /**
      * - The correct functionality is checked according value of (x,y) location of the end
      * - It must be equal maze[19][21]="E", it will  indicated that there is a solution
-     *    
      */
     @Test
     public void testAppSolvingMaze_medium_input() throws Exception {
@@ -92,9 +89,7 @@ public class MazeJuniferImplTest {
     /**
      * - The correct functionality is checked according value of (x,y) location of the end
      * - It must be equal maze[3][3]="E", it will  indicated that there is a solution
-     *      
      */
-
     @Test
     public void testAppSolvingMaze_input() throws Exception {
     	
@@ -109,9 +104,7 @@ public class MazeJuniferImplTest {
     /**
      * - The correct functionality is checked according value of (x,y) location of the end
      * - It must be equal maze[99][159]="E", it will  indicated that there is a solution
-     * 
      */
-
     @Test
     public void testAppSolvingMaze_large_input() throws Exception {
     	
